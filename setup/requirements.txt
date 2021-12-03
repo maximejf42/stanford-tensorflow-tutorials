@@ -1,8 +1,11 @@
-tensorflow==1.4.1
+tensorflow==2.5.1
 scipy==1.0.0
-scikit-learn==0.19.1
+scikit-learn==0.24.2
 matplotlib==2.1.1
 xlrd==1.1.0
 ipdb==0.10.3
-Pillow==5.0.0
-lxml==4.1.1
+Pillow==8.3.0
+lxml==4.6.3
+bleach>=3.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
